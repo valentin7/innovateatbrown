@@ -93,12 +93,12 @@
 
 <!-- Homepage Slider -->
 <div id="home-slider">	
-    <!--<div class="overlay"></div>-->
-
+    <div class="overlay" id="water">
     <div class="slider-text">
     	<div id="slidecaption"></div>
     </div>   
-	
+	    </div>
+
 	<div class="control-nav">     
         <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
@@ -109,7 +109,6 @@
 <header>
     <div class="sticky-nav">
     	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-        
         <div id="logo">
         	<a id="goUp" href="#home-slider" title="Innovate at Brown">Innovate at Brown</a>
         </div>
@@ -297,7 +296,27 @@ End Footer -->
 <script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
 <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="_include/js/main.js"></script> <!-- Default JS -->
+
+<!-- Starfield fun! -->
+    <script type='text/javascript' src='_include/js/jquery.particleground.js'></script>
+    <script type='text/javascript' src='_include/js/starfield.js'></script>
+    <script type='text/javascript' src='_include/js/jquery.ripples.js'></script>
 <!-- End Js -->
+
+<script>
+    $(document).ready(function() {
+        try {
+            $('#water').ripples({
+            resolution: 512,
+            dropRadius: 20,
+            perturbance: 0.04,
+            });
+        }
+        catch (e) {
+            $('.error').show().text(e);
+        }
+    }); 
+    </script>
 
 </body>
 </html>

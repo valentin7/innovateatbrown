@@ -1,4 +1,5 @@
 /*
+	Highly based on:
 Theme Name: Brushed 
 Theme URI: http://www.themes.alessioatzeni.com/html/brushed/
 Author: Alessio Atzeni
@@ -52,7 +53,7 @@ a:hover,
 a:active,
 a:focus{
 	outline: 0;
-	color:#f26283;
+	color:#f36284;
 	text-decoration:none;
 }
 
@@ -306,8 +307,8 @@ h3.spec {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	background: #26292E;
-	opacity: 0.7;
+	background: rgba(255, 255, 255, 0);
+	opacity: 1;
 	filter: alpha(opacity=70);
 	z-index: 0;
 }

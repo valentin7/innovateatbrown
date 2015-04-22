@@ -77,7 +77,7 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/brownSunriseB.jpg', title : '<div class="slide-content">Innovation at Brown</div>', thumb : '', url : ''}
+											{image : '_include/img/slider-images/brownSunriseB.jpg', title : '<div class="slide-content">Innovate at Brown</div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
