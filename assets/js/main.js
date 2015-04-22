@@ -77,7 +77,12 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : 'assets/img/slider-images/brownSunriseB.jpg', title : '<div class="slide-content">Innovate at Brown</div>', thumb : '', url : ''}
+											{image : 'assets/img/slider-images/brownSunriseB.jpg', title : '<div class="slide-content">Innovate at Brown
+											<iframe frameborder="0" height="100%" width="100%" 
+    src="https://youtube.com/embed/H4XgRqhAOd8?autoplay=1&controls=0&showinfo=0&autohide=1">
+  </iframe>
+
+											</div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
