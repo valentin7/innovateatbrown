@@ -45,7 +45,7 @@ BRUSHED.listenerMenu = function(){
 /* ==================================================
    Slider Options
 ================================================== */
-
+/*
 BRUSHED.slider = function(){
 	$.supersized({
 		// Functionality
@@ -86,7 +86,7 @@ BRUSHED.slider = function(){
 		
 	});
 
-}
+}*/
 
 
 /* ==================================================
@@ -396,7 +396,7 @@ BRUSHED.toolTip = function(){
 	Init
 ================================================== */
 
-BRUSHED.slider();
+//BRUSHED.slider();
 
 $(document).ready(function(){
 	/*Modernizr.load([
