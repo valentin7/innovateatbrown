@@ -1,6 +1,6 @@
 /*
 	Highly based on:
-	
+
 Theme Name: Brushed 
 Theme URI: http://www.themes.alessioatzeni.com/html/brushed/
 Author: Alessio Atzeni
@@ -48,6 +48,21 @@ a{
 
 header{
 	background: #ffffff;
+}
+
+#waterBackground {
+ display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 100px 0;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #222;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .background {
