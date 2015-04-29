@@ -8,13 +8,16 @@
 
 <!-- Meta Tags -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Innovate at Brown, Innovation at Brown, Innovation at RISD, dirsuptive technology" />
+<meta name="author" content="Valentin - Brown '18">
 
 <title>Innovate at Brown</title>   
 
-<meta name="description" content="Insert Your Site Description" /> 
+<meta name="description" content="Innovation at Brown and RISD" /> 
 
-<!-- Mobile Specifics -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Mobile Specifics 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 <meta name="HandheldFriendly" content="true"/>
 <meta name="MobileOptimized" content="320"/>   
 
@@ -92,7 +95,7 @@
 </div>
 <!-- End of Splash Screen -->
 
-<!-- Homepage Slider -->
+<!-- Homepage  -->
 <div class="background" id="water" style="background-image: url('assets/img/slider-images/brownSunriseB.jpg'); position: fixed; z-index: -99; width: 100%; height: 100%">
     <br><br><br>
     <h1 id="title" class="text_align_center">INNOVATE AT BROWN</h1>
@@ -109,7 +112,7 @@
         <a id="nextsection" target="_blank" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
 </div>
-<!-- End Homepage Slider -->
+<!-- End Homepage -->
 
 <!-- Header -->
 <header>
@@ -155,23 +158,7 @@
                 </nav>
                 <!-- End Filter -->
             </div>
-            <!--<div class="md-modal md-effect-1" id="modal-1">
-                            <div class="md-content">
-                                <h3>Modal Dialog</h3>
-                                <div>
-                                    <p>This is a modal window. You can do the following things with it:</p>
-                                    <ul>
-                                        <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-                                        <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-                                        <li><strong>Close:</strong> click on the button below to close the modal.</li>
-                                    </ul>
-                                    <button class="md-close">Close me!</button>
-                                </div>
-                            </div>
-                        </div>
-
-                                        <button class="md-trigger md-setperspective" data-modal="modal-18">Make way!</button>-->
-
+          
             <div class="span9" id="wateryo">
             	<div class="row">
                 	<section id="projects">
@@ -507,22 +494,19 @@ End Footer -->
 
 <script>
     $(document).ready(function() {
-         
-
         try {
-            $('#work').ripples({
+            $('#water').ripples({
             resolution: 512,
             dropRadius: 20,
             perturbance: 0.04,
             });
-           
         }
         catch (e) {
             $('.error').show().text(e);
         }
     }); 
-    </script>
-    <script>
+</script>
+<script>
    var player;
 
     function onYouTubeIframeAPIReady() {
