@@ -1,5 +1,6 @@
 /*
 	Highly based on:
+	
 Theme Name: Brushed 
 Theme URI: http://www.themes.alessioatzeni.com/html/brushed/
 Author: Alessio Atzeni
@@ -66,6 +67,8 @@ header{
 
 #title {
 	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
 }
 #white {
 	color: #ffffff;
@@ -237,7 +240,7 @@ h6{
 	margin:0 0 20px 0;
 	color:#f26283;
 	font-weight:300;
-	font-family: 'Titillium Web', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height:1.5em;
 }
 

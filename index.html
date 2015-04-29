@@ -97,9 +97,10 @@
 <!-- End of Splash Screen -->
 
 <!-- Homepage Slider -->
-<header class="background" id="wateryo" style="background-image: url('assets/img/slider-images/brownSunriseB.jpg'); position: fixed; z-index: -99; width: 100%; height: 100%">
-    <h1 id="title" class="text_align_center">Innovate at Brown</h1>
-    <h3 class ="text_align_center">The best way to predict the future is to create it</h3>
+<header class="background" id="water" style="background-image: url('assets/img/slider-images/brownSunriseB.jpg'); position: fixed; z-index: -99; width: 100%; height: 100%">
+    <br><br><br>
+    <h1 id="title" class="text_align_center">INNOVATE AT BROWN</h1>
+    <h3 id="white" class="text_align_center">A collection of innovation-based resources, organizations, conferences, and more at Brown and RISD.</h3>
 </header>
 <div id="home-slider">	
     <div class="overlay" id="starfieldyo">
@@ -132,7 +133,7 @@
         <div class="row">
             <div class="span12">
                 <div class="title-page">
-                    <h2 class="title">Innovation Resources</h2>
+                    <h2 class="title">Handful of Innovation</h2>
                     <h3 class="title-description">at Brown and RISD<a target="_blank" href="#"></a></h3>
                 </div>
             </div>
@@ -175,7 +176,7 @@
 
                                         <button class="md-trigger md-setperspective" data-modal="modal-18">Make way!</button>-->
 
-            <div class="span9" id="water">
+            <div class="span9" id="wateryo">
             	<div class="row">
                 	<section id="projects">
                         
@@ -496,9 +497,6 @@ End Footer -->
 <script src="assets/js/waypoints.js"></script> <!-- WayPoints -->
 <script src="assets/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
 <script src="assets/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
-<script src="assets/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
-<script src="assets/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-<script src="assets/js/jquery.tweet.js"></script> <!-- Tweet -->
 <script src="assets/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="assets/js/main.js"></script> <!-- Default JS -->
 
@@ -514,13 +512,15 @@ End Footer -->
 
 <script>
     $(document).ready(function() {
-        try {
-            console.log("WATER");
-            $('#water').ripples({
+         $('#water').ripples({
             resolution: 512,
             dropRadius: 20,
             perturbance: 0.04,
             });
+
+        try {
+            console.log("WATER");
+           
         }
         catch (e) {
             $('.error').show().text(e);
