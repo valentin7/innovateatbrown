@@ -224,6 +224,7 @@
 		},
 		
 		drawQuad: function() {
+			console.log("drawing quad");
 			gl.bindBuffer(gl.ARRAY_BUFFER, this.quad);
 			gl.vertexAttribPointer(0, 2, gl.FLOAT, false, 0, 0);
 			gl.drawArrays(gl.TRIANGLE_FAN, 0, 4);

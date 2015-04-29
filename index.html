@@ -93,7 +93,7 @@
 <!-- End of Splash Screen -->
 
 <!-- Homepage Slider -->
-<header class="background" id="water" style="background-image: url('assets/img/slider-images/brownSunriseB.jpg'); position: fixed; z-index: -99; width: 100%; height: 100%">
+<header class="background" id="water" style="background-image: url('assets/img/slider-images/brownSunriseB.jpg'); position: fixed; width: 100%; height: 100%">
     <br><br><br>
     <h1 id="title" class="text_align_center">INNOVATE AT BROWN</h1>
     <h3 id="white" class="text_align_center">A collection of innovation-based resources, organizations, conferences, and more at Brown and RISD.</h3>
@@ -507,14 +507,14 @@ End Footer -->
 
 <script>
     $(document).ready(function() {
-         $('#water').ripples({
+         
+
+        try {
+            $('#water').ripples({
             resolution: 512,
             dropRadius: 20,
             perturbance: 0.04,
             });
-
-        try {
-            console.log("WATER");
            
         }
         catch (e) {
