@@ -59,6 +59,11 @@
 <link rel="apple-touch-icon" sizes="72x72" target="_blank" href="#">
 <link rel="apple-touch-icon" sizes="144x144" target="_blank" href="#">
 
+<!-- Hover Effects -->
+<link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+<!--<link rel="stylesheet" type="text/css" href="assets/css/componentModals.css" />-->
+
+
 <!-- Modernizr -->
 <script src="assets/js/modernizr.js"></script>
 
@@ -94,6 +99,7 @@
 <!-- Homepage Slider -->
 <header class="background" id="water" style="background-image: url('assets/img/slider-images/brownSunriseB.jpg'); position: fixed; z-index: -99; width: 100%; height: 100%">
     <h1 id="title" class="text_align_center">Innovate at Brown</h1>
+    <h3 class ="text_align_center">The best way to predict the future is to create it</h3>
 </header>
 <div id="home-slider">	
     <div class="overlay" id="starfieldyo">
@@ -148,248 +154,162 @@
                         <li><a target="_blank" href="#filter" data-option-value=".conferences">Conferences</a></li>
                         <li><a target="_blank" href="#filter" data-option-value=".learning">Learning Resources</a></li>
                         <li><a target="_blank" href="#filter" data-option-value=".facebook-groups">Facebook Groups</a></li>
-
-
                     </ul>
                 </nav>
                 <!-- End Filter -->
             </div>
-            
+            <!--<div class="md-modal md-effect-1" id="modal-1">
+                            <div class="md-content">
+                                <h3>Modal Dialog</h3>
+                                <div>
+                                    <p>This is a modal window. You can do the following things with it:</p>
+                                    <ul>
+                                        <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+                                        <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+                                        <li><strong>Close:</strong> click on the button below to close the modal.</li>
+                                    </ul>
+                                    <button class="md-close">Close me!</button>
+                                </div>
+                            </div>
+                        </div>
+
+                                        <button class="md-trigger md-setperspective" data-modal="modal-18">Make way!</button>-->
+
             <div class="span9">
             	<div class="row">
                 	<section id="projects">
-                    	<ul id="thumbs">
                         
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 organizations">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Brown Entrepreneurship Program" target="_blank" href="assets/img/work/thumbs/epLogo.png">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/epLogo.png" alt="Brown EP is the student-run entrepreneurship initiative at Brown University. We ignite the entrepreneurial community of College Hill through tailored programming and resources to help students create change. We believe that an education in resourcefulness, adaptability, and innovation offers students invaluable insight to lead, in the words of the Brown charter, &quot;a life of usefulness and reputation.&quot;">
+                        <ul class="grid cs-style-4" id="thumbs">
+                            <li class="item-thumbs span2 organizations">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/epLogo.png" alt="Brown EP"></div>
+                                    <figcaption>
+                                        <h4>Brown EP</h4>
+                                        <p id="white">The Brown Entrepreneurship Program is the student-run entrepreneurship initiative on campus. We ignite the entrepreneurial community of College Hill through tailored programming and resources to help students create change.</p>
+                                        <a target="_blank" href="http://brownentrepreneurship.com">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 product organizations">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Hack@Brown" target="_blank" href="assets/img/work/thumbs/hack@BrownLogo.png">
-                                	<span class="overlay-img" href="http://hackatbrown.org" target="_blank"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/hack@BrownLogo.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            <li class="item-thumbs span2 organizations">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/hack@BrownLogo.png" alt="Hack@Brown"></div>
+                                    <figcaption>
+                                        <h3>Hack@Brown</h3>
+                                        <p id="white">The Swearer Center deepens Brown's mission to &quot;serve the community, nation, and world&quot; through innovative, thoughtful approaches to social change.</p>
+                                        <a target="_blank" href="http://hackatbrown.org">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 organizations">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="RISD E'Ship" target="_blank" href="assets/img/work/full/eShipLogo.png">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/eShipLogo.png" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                            <li class="item-thumbs span2 organizations">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/eShipLogo.png" alt="E'Ship"></div>
+                                    <figcaption>
+                                        <h4>RISD E'Ship</h4>
+                                        <p>Year-long program that accelerates Brown’s top commercial and technical student entrepreneurs through skills training, funding, the collective intelligence of the community, and complementary coursework.</p>
+                                        <a target="_blank" href="http://risdeship.com">Learn More</a>
+                                        <br>
+                                    </figcaption>
+                                </figure>
                             </li>
-                        	<!-- End Item Project -->
-                            
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 social organizations">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Swearer Center" target="_blank" href="assets/img/work/thumbs/swearerCenter.png">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/swearerCenter.png" alt="The Swearer Center deepens Brown's mission to &quot;serve the community, nation, and world&quot; through innovative, thoughtful approaches to social change.">
+                             <li class="item-thumbs span2 organizations social">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/swearerCenter.png" alt="Swearer Center"></div>
+                                    <figcaption>
+                                        <h4>Swearer Center</h4>
+                                        <p id="white">The Swearer Center deepens Brown's mission to &quot;serve the community, nation, and world&quot; through innovative, thoughtful approaches to social change.</p>
+                                        <a target="_blank" href="http://www.brown.edu/academics/college/special-programs/public-service/">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                            <!-- End Item Project -->
-
-
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 social">
-                                <!-- Fancybox Media - Gallery Enabled - Title - Link to social -->
-                                <a class="hover-wrap fancybox-media" data-fancybox-group="social" title="Swearer Sparks" target="_blank" href="assets/img/work/thumbs/swearerSparks.png">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/swearerSparks.png" alt="Swearer Sparks is an online platform for social change and storytelling where the Brown University community can spark new ideas and connections. Sparks was created with the belief that innovative, thoughtful approaches to social change depend on the exchange of people's experiences and ideas. The word &quot;sparks&quot; signifies heat, activation, collision, and origination. We believe good stories spark inspiration, ideas, and connections.">
+                             <li class="item-thumbs span2 social">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/swearerSparks.png" alt="Swearer Sparks"></div>
+                                    <figcaption>
+                                        <h4>Swearer Sparks</h4>
+                                        <p id="white">Online platform for social change and storytelling where the Brown University community can spark new ideas and connections.</p>
+                                        <a target="_blank" href="http://swearersparks.org">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                            <!-- End Item Project -->
-
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 conferences">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="A Better World by Design" href="assets/img/work/thumbs/bwbd_big.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/bwbd.png" alt="Each year, Better World by Design brings a global community of innovators to Providence, Rhode Island to reach across disciplines and unite under a common goal: building a better world. Presenters share engaging stories, workshops teach creative skills, and discussions re-frame perspectives. Better World is an immersive experience that deepens our understanding of the power of design, technology, and enterprise to engage our communities and sustain our environment.">
+                            <li class="item-thumbs span2 conferences">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/bwbd.jpg" alt="Better World by Design"></div>
+                                    <figcaption>
+                                        <h4>A Better World by Design</h4>
+                                        <p id="white">Each year, Better World by Design brings a global community of innovators to Providence, Rhode Island to reach across disciplines and unite under a common goal: building a better world. Presenters share engaging stories, workshops teach creative skills, and discussions re-frame perspectives.</p>
+                                        <a target="_blank" href="http://www.abetterworldbydesign.com/">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                            <!-- End Item Project -->
-
-
-                             <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 conferences">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="SEEED" href="assets/img/work/thumbs/seeed_big.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/seeed.png" alt="SEEED is a two-day national gathering focused on building effective social enterprise ecosystems that drive economic development. Convening social impact trailblazers to share best practice and create new collaborations, the conference is itself a partnership between Social Enterprise Greenhouse, the Social Innovation Initiative at Brown University, Worldways Social Marketing, and the SEEED at Brown student group. Over 750 social entrepreneurs, practitioners, business leaders, academics, impact investors, students, and policymakers attend each year.">
+                             <li class="item-thumbs span2 conferences social">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/seeed.png" alt="SEEED"></div>
+                                    <figcaption>
+                                        <h4>SEEED</h4>
+                                        <p id="white">SEED is a two-day national gathering focused on building effective social enterprise ecosystems that drive economic development.Over 750 social entrepreneurs, practitioners, business leaders, academics, impact investors, students, and policymakers attend each year.</p>
+                                        <a target="_blank" href="http://seeed.org">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                            <!-- End Item Project -->
-
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 organizations">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Design For America" href="assets/img/work/thumbs/dfa.png">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/dfa.png" alt="The RISD/Brown Design for America Studio was started in 2011 as a result of students looking for tangible ways to apply their education to solving problems in their community. Thanks to the academic talents of Brown University students coupled with the creativity and ingenuity of Rhode Island School of Design students, the RISD/Brown DFA Studio features superpower teams of students studying everything from political science to graphic design to mechanical engineering, and has worked collaboratively to tackle issues such as childhood lead poisoning, dyslexia, and healthy food access.">
+                             <li class="item-thumbs span2 organizations social">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/dfa.png" alt="Better World by Design"></div>
+                                    <figcaption>
+                                        <h4>Design for America</h4>
+                                        <p id="white">Multinational network of student-led studios using human-centered design to tackle local and social challenges. The RISD/Brown DFA was started in 2011.</p>
+                                        <a target="_blank" href="http://designforamerica.com/studios/risd-brown">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                            <!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 product">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Brown Venture Fellowship" target="_blank" href="assets/img/work/thumbs/ventureFellowship.png">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/ventureFellowship.png" alt="The Brown Venture Fellowship (BVF) is a year-long program that accelerates the development of Brown’s top commercial and technical student entrepreneurs through intensive skills training, funding, the collective intelligence of the community, and complementary coursework. We take no equity in our companies.">
+                            <li class="item-thumbs span2 product">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/ventureFellowship.png" alt="Brown Venture Fellowship"></div>
+                                    <figcaption>
+                                        <h4>Brown Venture Fellowship</h4>
+                                        <p id="white">BVF is a year-long program that accelerates Brown's top commercial and technical student entrepreneurs through skills training, funding, the collective intelligence of the community, and complementary coursework.</p>
+                                        <a target="_blank" href="http://www.brownentrepreneurship.com/fellows">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                        	<!-- End Item Project -->
-                            
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 conferences">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Brown EP Synapse" target="_blank" href="assets/img/work/thumbs/synapse.png">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/synapse.png" alt="Synapse brings 20 of Brown's and RISD's most exceptional engineers, designers, and aspiring entrepreneurs to visit an array of companies and build essential bridges with successful alumni entrepreneurs during their summer internships in San Francisco.">
+                            <li class="item-thumbs span2 conferences">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/synapse.png" alt="Brown EP Synapse"></div>
+                                    <figcaption>
+                                        <h3>Synapse</h3>
+                                        <p id="white">Synapse brings 20 of Brown's and RISD's most exceptional engineers, designers, and aspiring entrepreneurs to visit an array of companies and build essential bridges with successful alumni entrepreneurs during their summer internships in San Francisco.</p>
+                                        <a target="_blank" href="http://www.brownentrepreneurship.com/synapse">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                            <!-- End Item Project -->
-
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 product social">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Embark Fellowship" target="_blank" href="assets/img/work/thumbs/embark.png">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/embark.png" alt="Embark provide fellows with financial resources, structure, coaching, professional services, and connections with a network of alumni and local innovators necessary for recent grads to pursue their venture full time after graduation.">
+                            <li class="item-thumbs span2 product social">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/embark.png" alt="Brown Embark Fellowship"></div>
+                                    <figcaption>
+                                        <h4>Embark Fellowship</h4>
+                                        <p id="white">Embark provide fellows with financial resources, structure, coaching, professional services, and connections with a network of alumni and local innovators necessary for recent grads to pursue their venture full time after graduation.</p>
+                                        <a target="_blank" href="http://www.brown.edu/academics/college/special-programs/public-service/social-innovation-initiative/venture-support/embark-post-graduate-fellowship">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 social">
-                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to social -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="social Content From Vimeo" target="_blank" href="http://vimeo.com/50834315">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-09.jpg" alt="video">
+                            <li class="item-thumbs span2 product social">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/ventureLaunchFund.png" alt="Brown Embark Fellowship"></div>
+                                    <figcaption>
+                                        <h5>Brown Venture Launch Fund</h5>
+                                        <p id="white">The BVLF serves the Brown community by encouraging student entrepreneurs to turn their ideas into new ventures. The fund offers these ventures the opportunity to apply for three levels of progressively increasing funding using a gated award system. </p>
+                                        <a target="_blank" href="http://www.brown.edu/academics/college/special-programs/public-service/social-innovation-initiative/campus-initiatives/brown-venture-launch-fund">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
-                        	<!-- End Item Project -->
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 learning">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" target="_blank" href="assets/img/work/full/image-07-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 product">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" target="_blank" href="assets/img/work/full/image-06-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-                            
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 product">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" target="_blank" href="assets/img/work/full/image-07-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 facebook-groups">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" target="_blank" href="assets/img/work/full/image-07-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 facebook-groups">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" target="_blank" href="assets/img/work/full/image-07-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 facebook-groups">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" target="_blank" href="assets/img/work/full/image-07-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                            <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 learning">
-                                <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" target="_blank" href="assets/img/work/full/image-07-full.jpg">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
-
-                                 <!-- Item Project and Filter Name -->
-                            <li class="item-thumbs span3 conferences">
-                                <!-- Fancybox Media - Gallery Enabled - Title - Link to social -->
-                                <a class="hover-wrap fancybox-media" data-fancybox-group="video" title="social Content From Vimeo" target="_blank" href="http://vimeo.com/50834315">
-                                    <span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="assets/img/work/thumbs/image-09.jpg" alt="video">
+                            <li class="item-thumbs span2 product social">
+                                <figure>
+                                    <div><img src="assets/img/work/thumbs/ventureLaunchFund.png" alt="Brown Embark Fellowship"></div>
+                                    <figcaption>
+                                        <h3>Brown Venture Launch Fund</h3>
+                                        <p id="white">The BVLF serves the Brown community by encouraging student entrepreneurs to turn their ideas into new ventures. The fund offers these ventures the opportunity to apply for three levels of progressively increasing funding using a gated award system. </p>
+                                        <a target="_blank" href="http://www.brown.edu/academics/college/special-programs/public-service/social-innovation-initiative/campus-initiatives/brown-venture-launch-fund">Learn More</a>
+                                    </figcaption>
+                                </figure>
                             </li>
                         </ul>
                     </section>
@@ -432,6 +352,10 @@ End Footer -->
     <script type='text/javascript' src='assets/js/jquery.particleground.js'></script>
     <script type='text/javascript' src='assets/js/starfield.js'></script>
     <script type='text/javascript' src='assets/js/jquery.ripples.js'></script>
+
+<!-- Modal Effects -->
+    <script type='text/javascript' src="assets/js/modalEffects.js"></script>
+
 <!-- End Js -->
 
 <script>
