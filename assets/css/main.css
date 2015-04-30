@@ -32,6 +32,7 @@ body{
 	font-size:12px;
 	font-family: 'Titillium Web', sans-serif;
 	line-height:28px;
+	height: 100%;
 }
 
 
@@ -51,9 +52,9 @@ header{
 }
 
 #waterBackground {
- display: block;
-    position: relative;
-    width: auto;
+    display: block;
+    position: fixed;
+    width: 100%;
     height: auto;
     padding: 100px 0;
     background: no-repeat center center;
@@ -63,6 +64,7 @@ header{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    z-index: -99;
 }
 
 .background {
