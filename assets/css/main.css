@@ -16,6 +16,8 @@ Version: 1.0
 
 html, body {
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 html, hmtl a{
@@ -65,22 +67,9 @@ header{
     background-size: cover;
     -o-background-size: cover;
     z-index: -99;
+    overflow-x: hidden; 
 }
 
-.background {
-    display: block;
-    position: relative;
-    width: auto;
-    height: auto;
-    padding: 100px 0;
-    background: no-repeat center center;
-    background-attachment: scroll;
-    background-color: #222;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 #title {
 	color: #ffffff;
@@ -385,7 +374,7 @@ h3.spec {
 	text-transform: uppercase;	
 }
 
-#home-slider .control-nav {
+.control-nav {
 	position: absolute;
 	width: 100%;
 	background: #f26283;
