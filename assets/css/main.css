@@ -82,6 +82,9 @@ header{
 #white {
 	color: #ffffff;
 }
+#gray {
+	color: #868585;
+}
 a:hover,
 a:active,
 a:focus{
@@ -688,7 +691,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .title-page {
-	text-align: left;
+	text-align: center;
 	margin-bottom: 100px;	
 }
 
